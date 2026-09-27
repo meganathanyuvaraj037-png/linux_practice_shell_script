@@ -21,6 +21,6 @@ nproc
 
 ps -ef
 
-ps -f | awk -F " " '{print $2}'
+ps -ef  | awk -F " " '{print $2}'
 
 
